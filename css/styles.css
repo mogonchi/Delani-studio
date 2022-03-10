@@ -1,0 +1,8 @@
+.front {
+    background-image: url(../images/assets/backgrounds/h_img.jpg);
+    background-size: cover;
+}
+img#logo{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
