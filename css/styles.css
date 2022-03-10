@@ -1,8 +1,28 @@
 .front {
     background-image: url(../images/assets/backgrounds/h_img.jpg);
     background-size: cover;
+    text-align: center;
+    color: white;
+    
 }
 img#logo{
     background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 8px;
+    padding-top: 15%;
+
+
+}
+.intro-content{
+    /* margin-top: 10%; */
+    text-align: center;
+}
+#mouse-click{
+    margin-top: 13%;
+    /* padding-top: 15%; */
+    margin-bottom: 20px;
+
+}
+h1{
+    font-size: xx-large;
 }
