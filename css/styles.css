@@ -17,6 +17,9 @@ img#logo{
     /* margin-top: 10%; */
     text-align: center;
 }
+.About-us{
+    text-align: center;
+}
 #mouse-click{
     margin-top: 13%;
     /* padding-top: 15%; */
@@ -25,4 +28,8 @@ img#logo{
 }
 h1{
     font-size: xx-large;
+}
+#service{
+    text-align: center;
+    background-image: url(../images/assets/backgrounds/s_image.jpg);
 }
