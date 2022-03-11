@@ -59,7 +59,7 @@ h1{
     padding-bottom: 80px;
     margin-top: 10px;
     margin-bottom: 30px;
-    color: white;
+    color: transparent;
 } 
 .contact{
     padding-top: 30px;
@@ -70,4 +70,14 @@ h1{
 }
 .header{
     text-align: center;
+}
+#portfolio{
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    flex-wrap: wrap;
+}
+.col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
 }
