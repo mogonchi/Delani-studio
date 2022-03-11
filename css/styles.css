@@ -45,3 +45,9 @@ h1{
     background-repeat: no-repeat;
     text-align: center;
 }
+.form{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
