@@ -1,3 +1,5 @@
+*{font-family: 'Poppins', sans-serif;}
+
 .front {
     background-image: url(../images/assets/backgrounds/h_img.jpg);
     background-size: cover;
@@ -22,7 +24,6 @@ img#logo{
 }
 #mouse-click{
     margin-top: 13%;
-    /* padding-top: 15%; */
     margin-bottom: 20px;
 
 }
@@ -38,4 +39,7 @@ h1{
     text-align: center;
     padding: 50px;
     margin: 50px;
+}
+.container-fluid{
+    background-image: url(../images/assets/backgrounds/c_image.jpg);
 }
