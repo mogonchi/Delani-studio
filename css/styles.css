@@ -39,15 +39,22 @@ h1{
     text-align: center;
     padding: 50px;
     margin: 50px;
+    color: white;
 }
 .container-fluid{
     background-image: url(../images/assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     text-align: center;
+    color: white;
 }
 .form{
-    padding-top: 20px;
+   padding-top: 20px;
     padding-bottom: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
+    color: white;
+} 
+.contact{
+    padding-top: 30px;
+    margin-top: 20px;
 }
