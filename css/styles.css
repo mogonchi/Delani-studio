@@ -27,6 +27,13 @@ img#logo{
     margin-bottom: 20px;
 
 }
+/* #work1, #work2,#work3,#work4{
+    display: inline;
+}
+#work5, #work6,#work7,#work8{
+    display: inline;
+} */
+
 h1{
     font-size: xx-large;
 }
@@ -49,12 +56,18 @@ h1{
 }
 .form{
    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: white;
 } 
 .contact{
     padding-top: 30px;
     margin-top: 20px;
+}
+.footer{
+    text-align: center;
+}
+.header{
+    text-align: center;
 }
