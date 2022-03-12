@@ -83,20 +83,28 @@ h1{
     /* text-align: center; */
     color: white;
 }
-/* .form{
-   padding-top: 10px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white; */
-    
-} 
-/* .form-group form-inline col-md-4{
-    display: flex; */
-/* } */
+.contact-content{
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    border: 50px;
+}
+.form-control{
+    background-color: rgba(0, 0,0, 0);
+    color: white;
+   
+}
+::placeholder{
+    color: white !important;
+}
+
 .contact{
+    text-align: center;
     padding-top: 30px;
     margin-top: 20px;
+}
+.btn{
+    align-items: center;
 }
 .footer{
     text-align: center;

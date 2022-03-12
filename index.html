@@ -142,21 +142,25 @@
     </div>
     <br><br>
     <div class="container-fluid">
-        <h2 class="contact">CONTACT US</h2>
-        <form action="https://gmail.us14.list-manage.com/subscribe/post?u=9184ad962cd7fa4c536375e8f&amp;id=55ec3e923a"
-            method="post">
-            <div class="row">
-                <div class="col">
-                    <input type="text" id="name" placeholder="Name.." class="form-control" value="">
+        <div class="contact-content">
+            <h2 class="contact">CONTACT US</h2>
+            <form
+                action="https://gmail.us14.list-manage.com/subscribe/post?u=9184ad962cd7fa4c536375e8f&amp;id=55ec3e923a"
+                method="post">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" id="name" placeholder="Name.." class="form-control" value="">
+                    </div>
+                    <div class="col">
+                        <input type="email" id="email" placeholder="Email.." class="form-control" value="">
+                    </div>
+                </div><br>
+                <div class="form-group">
+                    <textarea class="form-control" id="comments" rows="8" placeholder="Your message here..."></textarea>
                 </div>
-                <div class="col">
-                    <input type="email" id="email" placeholder="Email.." class="form-control" value="">
-                </div>
-            </div><br>
-            <div class="form-group">
-                <textarea class="form-control" id="comments" rows="8" placeholder="Your message here..."></textarea>
-            </div>
-            <button type="submit" class="btn" id="btn">Submit</button>
+                <br>
+                <button type="submit" class="btn btn-warning" id="btn">Submit</button>
+        </div>
         </form>
     </div>
     <footer class="footer">
