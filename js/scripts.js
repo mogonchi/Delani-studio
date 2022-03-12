@@ -29,6 +29,18 @@ $(document).ready(function(){
         $(".product-image").fadeIn("slow","swing");
     });
 });
+
+// $(document).ready(function(){
+//     $(("#work4, textHover1").animate({
+//         opacity:1
+//     });
+//     $("#work4, textHover1").hover(function(){
+//         $(this).stop().animate({opacit:.4},200);
+//     }, function(){
+//         $(this).stop().animate({opacity:1},500)
+//     });
+// }); 
+ 
 $(document).ready(function(){
     $("#work4").mouseover(function(){
         $("#textHover1").show();

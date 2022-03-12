@@ -80,20 +80,20 @@ h1{
 .container-fluid{
     background-image: url(../images/assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
-    text-align: center;
+    /* text-align: center; */
     color: white;
 }
-.form{
+/* .form{
    padding-top: 10px;
     padding-bottom: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: white;
+    color: white; */
     
 } 
-.form-group form-inline col-md-4{
-    display: flex;
-}
+/* .form-group form-inline col-md-4{
+    display: flex; */
+/* } */
 .contact{
     padding-top: 30px;
     margin-top: 20px;
