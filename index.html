@@ -27,13 +27,16 @@
             <h1>WELCOME</h1>
             <h1>TO DELANI STUDIO</h1>
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+            <div class="mouse-click">
+                <img src="../Delani-studio/images/assets/mouse_click.png" alt="mouse_click"
+                        id="mouse-click">
+            </div>
+
         </div>
 
-        <div id="mouse-click">
-            <img src="../Delani-studio/images/assets/mouse_click.png" alt="mouse_click" />
-        </div>
+
     </div>
-    <div class="About-us">
+    <div class='about' id="About-us">
         <h2 id="About">ABOUT US</h2>
         <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software
             development process are intergrated , interactive and agile.</p>
@@ -143,11 +146,14 @@
     <div class="container-fluid">
         <h2 class="contact">CONTACT US</h2>
         <div class="form">
-            <form action="">
-                <input type="text" name="name" id="name" placeholder="Name..." size="23" class="form-cotrol" value="">
-                <input type="email" name="name" id="email" placeholder="Email..." size="23" class="form-control"
-                    value="">
-            </form><br>
+
+            <div class="form-group form-inline col-md-4">
+                <form action="">
+                    <input type="text" id="name" placeholder="Name.." class="form-control" size="25" value=""><br>
+                    <input type="email" id="email" placeholder="Email.." class="form-control" size="25" value="">
+                </form>
+
+            </div><br>
             <div class="form-control">
                 <textarea class="form-control" id="comments" rows="8" placeholder="Your message here..."></textarea>
             </div>
