@@ -19,3 +19,13 @@ $(document).ready(function(){
         $(".dev-image").fadeIn("slow","swing");
     })
 });
+$(document).ready(function(){
+    $(".product-image").click(function(){
+        $(".product-image").fadeIn("slow","linear").hide();
+        $("#management").show();
+    });
+    $("#management").click(function(){
+        $("#management").fadeOut("swing");
+        $(".product-image").fadeIn("slow","swing");
+    })
+});

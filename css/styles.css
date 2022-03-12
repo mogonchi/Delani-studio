@@ -53,7 +53,7 @@ h1{
 }
 
 .heading{
-    text-align: center;
+    padding-bottom: 30px;
    
 }
 
@@ -71,6 +71,11 @@ h1{
 }
 #design, #development, #management{
     display: none;
+}
+
+#what-we-do{
+    text-align: center;
+
 }
 .container-fluid{
     background-image: url(../images/assets/backgrounds/c_image.jpg);
