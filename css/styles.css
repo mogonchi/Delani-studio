@@ -106,9 +106,10 @@ h1{
 }
 #portfolio{
     display: flex;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 12%;
+    margin-left: 12%;
     flex-wrap: wrap;
+    align-items: center;
 }
 .col-md-3 img{
     max-width: 100%;
