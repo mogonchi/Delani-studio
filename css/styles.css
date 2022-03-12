@@ -17,6 +17,9 @@ img#logo{
 
 
 }
+h1{
+    font-size: xx-large;
+}
 .intro-content{
     
     text-align: center;
@@ -49,10 +52,11 @@ img#logo{
     }
 }
 
-
-h1{
-    font-size: xx-large;
+.heading{
+    text-align: center;
+   
 }
+
 #service{
    
     background-image: url(../images/assets/backgrounds/s_image.jpg);
@@ -64,6 +68,9 @@ h1{
     margin: 70px;
     border:40px;
     color: white;
+}
+#design, #development, #product{
+    display: none;
 }
 .container-fluid{
     background-image: url(../images/assets/backgrounds/c_image.jpg);
