@@ -1,10 +1,21 @@
 $(document).ready(function(){
     $(".design-image").click(function(){
-        $(".design-image").slideDown().hide();
+        $(".design-image").fadeIn("slow","linear").hide();
         $("#design").show();
     });
     $("#design").click(function(){
-        $("#design").slideUp();
-        $(".design-image").slideDown();
+        $("#design").fadeOut("swing");
+        $(".design-image").fadeIn("slow","swing");
+    })
+});
+
+$(document).ready(function(){
+    $(".dev-image").click(function(){
+        $(".dev-image").fadeIn("slow","linear").hide();
+        $("#development").show();
+    });
+    $("#development").click(function(){
+        $("#development").fadeOut("swing");
+        $(".dev-image").fadeIn("slow","swing");
     })
 });
