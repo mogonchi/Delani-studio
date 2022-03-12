@@ -72,6 +72,7 @@ $(document).ready(function () {
         $("#textHover8").hide();
     });
 });
+
 $(document).ready(function () {
     $("#form-submit").submit(function () {
         let name = $("input#name").val();

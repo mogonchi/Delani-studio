@@ -102,9 +102,7 @@ h1{
     padding-top: 30px;
     margin-top: 20px;
 }
-.btn{
-    align-items: center;
-}
+
 .footer{
     text-align: center;
 }
@@ -122,30 +120,8 @@ h1{
     max-width: 100%;
     max-height: 100%;
 }
-/* #textHover1, #textHover2, #textHover3, #textHover4, #textHover5, #textHover6, #textHover7, #textHover8{
+#textHover1, #textHover2, #textHover3, #textHover4, #textHover5, #textHover6, #textHover7, #textHover8{
     display: none;
-    padding-top: 100%;
-    text-align: center;
-    position: relative;
-    background-color:rgba(0, 0,0, 0.5);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    color: black;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-
-     */
-
-/* } */
-#work4{
-    position: relative;
-
-}
-#textHover1{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -154,4 +130,13 @@ h1{
     border: 2px solid white;
     height: 90%;
     width: 75%;
+    background-color: grey;
+
+    
+
 }
+#work4, #work3, #work2, #work1,#work5,#work6,#work7,#work8{
+    position: relative;
+
+}
+
