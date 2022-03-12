@@ -144,19 +144,18 @@
     <div class="container-fluid">
         <div class="contact-content">
             <h3 class="contact">CONTACT US</h3>
-            <form id="form-submit" action="https://gmail.us14.list-manage.com/subscribe/post" method="post">
-                <input type="hidden" name="u" value="9184ad962cd7fa4c536375e8f">
-                <input type="hidden" name="id" value="55ec3e923a">
+            <form id="form-submit" target="_blank" action="https://gmail.us14.list-manage.com/subscribe/post?u=9184ad962cd7fa4c536375e8f&amp;id=55ec3e923a" method="post">
+               
                 <div class="row">
                     <div class="col">
-                        <input type="text" id="name" placeholder="Name.." class="form-control" value="">
+                        <input type="text" id="name" placeholder="Name.." name="NAME" class="form-control" value="">
                     </div>
                     <div class="col">
-                        <input type="email" id="email" placeholder="Email.." class="form-control" value="">
+                        <input type="email" id="email" placeholder="Email.." name="EMAIL" class="form-control" value="">
                     </div>
                 </div><br>
                 <div class="form-group">
-                    <textarea class="form-control" id="comments" rows="8" placeholder="Your message here..."></textarea>
+                    <textarea class="form-control" id="comments" name="MESSAGES" rows="8" placeholder="Your message here..."></textarea>
                 </div>
                 <br>
                 <button type="submit" class="btn btn-warning" id="btn">Submit</button>
