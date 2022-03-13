@@ -131,7 +131,9 @@ h1{
     border: 2px solid white;
     height: 90%;
     width: 75%;
-    background-color: grey;
+    background-color:transparent;
+    opacity: o.4;
+    
 
     
 
@@ -139,4 +141,12 @@ h1{
 #work4, #work3, #work2, #work1,#work5,#work6,#work7,#work8{
     position: relative;
 
+}
+.button{
+    text-align: center;
+    
+}
+#btn{
+    background-color: blueviolet!important;
+    display: none;
 }
